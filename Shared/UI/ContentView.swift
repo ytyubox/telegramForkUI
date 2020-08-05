@@ -35,9 +35,14 @@ struct ContentView: View {
                     }
             }
             .listStyle(PlainListStyle())
-            .navigationBarTitle("聊天")
+            .navigationBarTitle(
+                Text("聊天")
+            )
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(
+                leading: Button("Some", action: {
+                    print(#line)
+                }),
                 trailing:
                     Image(systemName: "square.and.pencil")
                     .contextMenu(/*@START_MENU_TOKEN@*/ContextMenu(menuItems: {
@@ -47,6 +52,9 @@ struct ContentView: View {
                     })/*@END_MENU_TOKEN@*/)
             )
             
+        }
+        .onTapGesture {
+            print(#line)
         }
     }
 }
