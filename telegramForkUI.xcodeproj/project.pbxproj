@@ -15,6 +15,8 @@
 		A7A110AC24DA544700067186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1108124DA544600067186 /* ContentView.swift */; };
 		A7A110AD24DA544700067186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A1108224DA544700067186 /* Assets.xcassets */; };
 		A7A110AE24DA544700067186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A1108224DA544700067186 /* Assets.xcassets */; };
+		A7A110BF24DA546C00067186 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A110BE24DA546C00067186 /* ChatCell.swift */; };
+		A7A110C024DA546C00067186 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A110BE24DA546C00067186 /* ChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		A7A110A224DA544700067186 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A110A624DA544700067186 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A7A110A824DA544700067186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A110BE24DA546C00067186 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A7A1108024DA544600067186 /* telegramForkUIApp.swift */,
-				A7A1108124DA544600067186 /* ContentView.swift */,
+				A7A110BD24DA545200067186 /* UI */,
 				A7A1108224DA544700067186 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +152,15 @@
 				A7A110A824DA544700067186 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		A7A110BD24DA545200067186 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1108124DA544600067186 /* ContentView.swift */,
+				A7A110BE24DA546C00067186 /* ChatCell.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +322,7 @@
 			files = (
 				A7A110AB24DA544700067186 /* ContentView.swift in Sources */,
 				A7A110A924DA544700067186 /* telegramForkUIApp.swift in Sources */,
+				A7A110BF24DA546C00067186 /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +332,7 @@
 			files = (
 				A7A110AC24DA544700067186 /* ContentView.swift in Sources */,
 				A7A110AA24DA544700067186 /* telegramForkUIApp.swift in Sources */,
+				A7A110C024DA546C00067186 /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
