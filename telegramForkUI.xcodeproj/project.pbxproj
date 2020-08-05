@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A1109C24DA544700067186 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1109B24DA544700067186 /* Tests_iOS.swift */; };
+		A7A110A724DA544700067186 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A110A624DA544700067186 /* Tests_macOS.swift */; };
+		A7A110A924DA544700067186 /* telegramForkUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1108024DA544600067186 /* telegramForkUIApp.swift */; };
+		A7A110AA24DA544700067186 /* telegramForkUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1108024DA544600067186 /* telegramForkUIApp.swift */; };
+		A7A110AB24DA544700067186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1108124DA544600067186 /* ContentView.swift */; };
+		A7A110AC24DA544700067186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1108124DA544600067186 /* ContentView.swift */; };
+		A7A110AD24DA544700067186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A1108224DA544700067186 /* Assets.xcassets */; };
+		A7A110AE24DA544700067186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A1108224DA544700067186 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7A1109824DA544700067186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A1107B24DA544600067186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A1108624DA544700067186;
+			remoteInfo = iOS;
+		};
+		A7A110A324DA544700067186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A1107B24DA544600067186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A1108E24DA544700067186;
+			remoteInfo = macOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7A1108024DA544600067186 /* telegramForkUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegramForkUIApp.swift; sourceTree = "<group>"; };
+		A7A1108124DA544600067186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7A1108224DA544700067186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A1108724DA544700067186 /* telegramForkUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telegramForkUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A1108A24DA544700067186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A1108F24DA544700067186 /* telegramForkUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telegramForkUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A1109124DA544700067186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A1109224DA544700067186 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A7A1109724DA544700067186 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A1109B24DA544700067186 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A7A1109D24DA544700067186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A110A224DA544700067186 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A110A624DA544700067186 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A7A110A824DA544700067186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A1108424DA544700067186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1108C24DA544700067186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1109424DA544700067186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1109F24DA544700067186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A1107A24DA544600067186 = {
+			isa = PBXGroup;
+			children = (
+				A7A1107F24DA544600067186 /* Shared */,
+				A7A1108924DA544700067186 /* iOS */,
+				A7A1109024DA544700067186 /* macOS */,
+				A7A1109A24DA544700067186 /* Tests iOS */,
+				A7A110A524DA544700067186 /* Tests macOS */,
+				A7A1108824DA544700067186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A1107F24DA544600067186 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1108024DA544600067186 /* telegramForkUIApp.swift */,
+				A7A1108124DA544600067186 /* ContentView.swift */,
+				A7A1108224DA544700067186 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A7A1108824DA544700067186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1108724DA544700067186 /* telegramForkUI.app */,
+				A7A1108F24DA544700067186 /* telegramForkUI.app */,
+				A7A1109724DA544700067186 /* Tests iOS.xctest */,
+				A7A110A224DA544700067186 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A1108924DA544700067186 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1108A24DA544700067186 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A7A1109024DA544700067186 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1109124DA544700067186 /* Info.plist */,
+				A7A1109224DA544700067186 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A7A1109A24DA544700067186 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7A1109B24DA544700067186 /* Tests_iOS.swift */,
+				A7A1109D24DA544700067186 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A7A110A524DA544700067186 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7A110A624DA544700067186 /* Tests_macOS.swift */,
+				A7A110A824DA544700067186 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A1108624DA544700067186 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A110B124DA544700067186 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				A7A1108324DA544700067186 /* Sources */,
+				A7A1108424DA544700067186 /* Frameworks */,
+				A7A1108524DA544700067186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = A7A1108724DA544700067186 /* telegramForkUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A1108E24DA544700067186 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A110B424DA544700067186 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				A7A1108B24DA544700067186 /* Sources */,
+				A7A1108C24DA544700067186 /* Frameworks */,
+				A7A1108D24DA544700067186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = A7A1108F24DA544700067186 /* telegramForkUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A1109624DA544700067186 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A110B724DA544700067186 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A7A1109324DA544700067186 /* Sources */,
+				A7A1109424DA544700067186 /* Frameworks */,
+				A7A1109524DA544700067186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A1109924DA544700067186 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A7A1109724DA544700067186 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A7A110A124DA544700067186 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A110BA24DA544700067186 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A7A1109E24DA544700067186 /* Sources */,
+				A7A1109F24DA544700067186 /* Frameworks */,
+				A7A110A024DA544700067186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A110A424DA544700067186 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A7A110A224DA544700067186 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A1107B24DA544600067186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A7A1108624DA544700067186 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A7A1108E24DA544700067186 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A7A1109624DA544700067186 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A7A1108624DA544700067186;
+					};
+					A7A110A124DA544700067186 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A7A1108E24DA544700067186;
+					};
+				};
+			};
+			buildConfigurationList = A7A1107E24DA544600067186 /* Build configuration list for PBXProject "telegramForkUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A1107A24DA544600067186;
+			productRefGroup = A7A1108824DA544700067186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A1108624DA544700067186 /* iOS */,
+				A7A1108E24DA544700067186 /* macOS */,
+				A7A1109624DA544700067186 /* Tests iOS */,
+				A7A110A124DA544700067186 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A1108524DA544700067186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A110AD24DA544700067186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1108D24DA544700067186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A110AE24DA544700067186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1109524DA544700067186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A110A024DA544700067186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A1108324DA544700067186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A110AB24DA544700067186 /* ContentView.swift in Sources */,
+				A7A110A924DA544700067186 /* telegramForkUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1108B24DA544700067186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A110AC24DA544700067186 /* ContentView.swift in Sources */,
+				A7A110AA24DA544700067186 /* telegramForkUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1109324DA544700067186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A1109C24DA544700067186 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A1109E24DA544700067186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A110A724DA544700067186 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7A1109924DA544700067186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A1108624DA544700067186 /* iOS */;
+			targetProxy = A7A1109824DA544700067186 /* PBXContainerItemProxy */;
+		};
+		A7A110A424DA544700067186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A1108E24DA544700067186 /* macOS */;
+			targetProxy = A7A110A324DA544700067186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7A110AF24DA544700067186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A110B024DA544700067186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A7A110B224DA544700067186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.telegramForkUI;
+				PRODUCT_NAME = telegramForkUI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A110B324DA544700067186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.telegramForkUI;
+				PRODUCT_NAME = telegramForkUI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A110B524DA544700067186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.telegramForkUI;
+				PRODUCT_NAME = telegramForkUI;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A7A110B624DA544700067186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytyubox.telegramForkUI;
+				PRODUCT_NAME = telegramForkUI;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A7A110B824DA544700067186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ytyubox.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS;
+			};
+			name = Debug;
+		};
+		A7A110B924DA544700067186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ytyubox.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A110BB24DA544700067186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ytyubox.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macOS;
+			};
+			name = Debug;
+		};
+		A7A110BC24DA544700067186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3AMPL46LPV;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ytyubox.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A1107E24DA544600067186 /* Build configuration list for PBXProject "telegramForkUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A110AF24DA544700067186 /* Debug */,
+				A7A110B024DA544700067186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A110B124DA544700067186 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A110B224DA544700067186 /* Debug */,
+				A7A110B324DA544700067186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A110B424DA544700067186 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A110B524DA544700067186 /* Debug */,
+				A7A110B624DA544700067186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A110B724DA544700067186 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A110B824DA544700067186 /* Debug */,
+				A7A110B924DA544700067186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A110BA24DA544700067186 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A110BB24DA544700067186 /* Debug */,
+				A7A110BC24DA544700067186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A1107B24DA544600067186 /* Project object */;
+}
